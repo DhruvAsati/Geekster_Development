@@ -1,12 +1,22 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 .head-1{
     color: grey;
     font-size: 120px;
     font-family: cursive;
     text-align: center;
+   
+}
+.head-1:hover{
+    background-position: center;
+    background-image: url(flag.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .section-one{
     background-color: pink;
