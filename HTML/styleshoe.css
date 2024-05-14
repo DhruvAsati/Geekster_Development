@@ -1,0 +1,52 @@
+body{
+    
+    background-color: ligrey;
+}
+h1{
+    margin: 0px;
+}
+.main-sec{
+    background-image: linear-gradient(to right,purple, pink, rgb(225, 114, 17) );
+    box-shadow: 0px 0px 10px black;
+    padding: 2%;
+    margin: 5% 10%;
+    height: 70vh;
+    z-index: 10;
+    position: relative;
+}
+section{
+    max-width: 40%;
+    display: inline-block;
+    
+
+}
+section:first-child{
+    color: white;
+    margin-right: 20%;
+    
+   
+
+}
+    
+.main-image{
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    transition: 0.5s;
+}
+body::before{
+    content: "";
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right ,rgb(193, 44, 7), pink, purple, blue);
+    box-shadow: 0px 0px 10px black;
+    transform: skewY(15deg);
+    inset: 0px;
+    
+}
+.main-image:hover{
+    width: 450px;
+    right: 50px;
+    top: 0px;
+}
