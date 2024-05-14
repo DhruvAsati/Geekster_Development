@@ -8,6 +8,7 @@
     font-size: 120px;
     font-family: cursive;
     text-align: center;
+    padding: 20px;
    
 }
 .head-1:hover{
@@ -28,6 +29,7 @@
     background-color: red;
     width: auto;
     height: 400px;
+   
 }
 .section-three{
     background-color: blue;
@@ -41,19 +43,91 @@
     height: 400px;
 }
 
-.Section-one ,.aside-menu,a{
-    text-align: right;
-    color: white;
-    text-decoration: none;
-    font-size: 45px;
-    padding: 5px;
-    margin: auto;
-    border: solid 1px black;
-
+.menu{
+   background-color: gray;
+   width: 100%;
+   height: 50px;
+   display: flex;
+   position: sticky;
+   top: 0%;
+   overflow: hidden;
    
+}
+.item{
+    color: white;
+   padding: 15px;
+   text-decoration: none;
+   
+   
+}
+.item:hover{
+    text-decoration: overline red;
+    color: orange;
+    text-transform: uppercase;
+
 }
 
 h2 {
     color: salmon;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.s-relative{
+   
+    width: 250px;
+    height: 250px;
+    background-color: grey ;
+    margin: auto;
+}
+p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+ 
+}
+.home-item{
+   
+   list-style: none;
+}
+.items{
+    padding-top: 20px;
+    color: black;
+    display: block;
+}
+.menu:hover{
+    overflow: visible;
+    background-color: gray;
+    border: 1px solid green;
+    color: black;
+}
+.first-letter{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.first-letter::first-letter{
+    font-size: 40px;
+    color: red;
+    text-transform: capitalize;
+}
+.foot{
+    width: auto;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.footlink:hover{
+   background-color: red;
+    text-decoration: overline red;
+}
+.footlink:visited{
+    color: yellow;
+}
+.footlink:active{
+    color: green;
 }
